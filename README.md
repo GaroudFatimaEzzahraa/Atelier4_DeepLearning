@@ -44,7 +44,7 @@ Cette atelier vise à se familiariser avec PyTorch pour construire des architect
 | VAE   | 32/0.001/128/50, β=1    | KL régularise. |
 | GAN   | 100/0.0002/64/100       | Adam betas=0.5. |
 
-## Synthèse Brève : Ce que j'ai Appris (Exigence du TP)
+## Synthèse Brève : Ce que j'ai Appris
 Cette atelier m'a permis de plonger dans les bases des modèles génératifs avec PyTorch, en implémentant des architectures d'Auto-Encoder (AE), Variational Auto-Encoder (VAE) et GANs sur des datasets concrets (MNIST et Abstract Art Gallery). Voici un résumé concis de mes apprentissages, basé sur les résultats obtenus (plots de losses, reconstructions, latent spaces et générations) :
 
 - **Partie 1 : AE et VAE sur MNIST**  
