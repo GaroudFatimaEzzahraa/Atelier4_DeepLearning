@@ -6,21 +6,35 @@ Cette atelier vise à se familiariser avec PyTorch pour construire des architect
 ## Résultats Clés
 ### Partie 1 : AE/VAE (MNIST)
 - **AE** : MSE finale ~0.023 (latent=32, lr=0.001). Bonne reconstruction.
+
   ![alt text](image.png)
+  
 - **VAE** : Loss ~0.096, KL ~2800. Latent continu.
+
   ![alt text](image-1.png)
+  
 - **Comparaison** : AE discret, VAE généralisable.
+
   ![alt text](image-2.png)
   ![alt text](image-3.png)
+  
 ### Partie 2 : GANs (Abstract Art)
 - Losses : oscillations stables.
+
   ![alt text](image-4.png)
+  
   ![alt text](image-5.png)
+  
   ![alt text](image-6.png)
+  
 - Générations : Du bruit à de l'art abstrait.
+  
   ![alt text](image-7.png)
+  
   ![alt text](image-8.png)
+  
 - Comparaison : Style similaire (couleurs vives), mais synthétique.
+  
   ![alt text](image-10.png)
 
 ## Hyperparamètres Optimaux
