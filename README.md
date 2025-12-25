@@ -13,7 +13,7 @@ Cette atelier vise à se familiariser avec PyTorch pour construire des architect
   ![alt text](image-2.png)
   ![alt text](image-3.png)
 ### Partie 2 : GANs (Abstract Art)
-- Losses : G~11-18, D~0.8 (oscillations stables).
+- Losses : oscillations stables.
   ![alt text](image-4.png)
   ![alt text](image-5.png)
   ![alt text](image-6.png)
@@ -31,7 +31,7 @@ Cette atelier vise à se familiariser avec PyTorch pour construire des architect
 | GAN   | 100/0.0002/64/100       | Adam betas=0.5. |
 
 ## Synthèse Brève : Ce que j'ai Appris (Exigence du TP)
-Ce labo m'a permis de plonger dans les bases des modèles génératifs avec PyTorch, en implémentant des architectures d'Auto-Encoder (AE), Variational Auto-Encoder (VAE) et GANs sur des datasets concrets (MNIST et Abstract Art Gallery). Voici un résumé concis de mes apprentissages, basé sur les résultats obtenus (plots de losses, reconstructions, latent spaces et générations) :
+Cette atelier m'a permis de plonger dans les bases des modèles génératifs avec PyTorch, en implémentant des architectures d'Auto-Encoder (AE), Variational Auto-Encoder (VAE) et GANs sur des datasets concrets (MNIST et Abstract Art Gallery). Voici un résumé concis de mes apprentissages, basé sur les résultats obtenus (plots de losses, reconstructions, latent spaces et générations) :
 
 - **Partie 1 : AE et VAE sur MNIST**  
   - **AE** : J'ai construit un encodeur-décodeur linéaire simple (latent_dim=32, lr=0.001, batch=128, 50 epochs) qui compresse/reconstruit les chiffres manuscrits avec une MSE finale ~0.023 (descendant de 0.023 à 0.022). Les hyperparams sont optimaux pour une convergence rapide sans overfitting. Le latent space (t-SNE) est discret et clusterisé par classes (0-9), idéal pour de la détection d'anomalies mais pas pour l'interpolation.  
